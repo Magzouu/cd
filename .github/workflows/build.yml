@@ -27,6 +27,7 @@ jobs:
             run: pmd -d ./force-app/main/default/classes -R category/apex/design.xml -f text
 
     sonarcloud:
+        name: SonarCloud
         runs-on: ubuntu-latest
         steps:
         - uses: actions/checkout@v3
