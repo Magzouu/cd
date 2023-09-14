@@ -20,7 +20,6 @@ jobs:
             tag_with_sha: true
 
     sonarcloud:
-        name: SonarCloud
         runs-on: ubuntu-latest
         steps:
         - uses: actions/checkout@v3
